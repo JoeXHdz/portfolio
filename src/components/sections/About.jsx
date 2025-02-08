@@ -24,10 +24,14 @@ export const About = () => {
           </h2>
           <div className="glass rounded-xl p-8 border-white/10 border hocer:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6 w-2/3 mx-auto text-center">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-              laboriosam beatae similique dolorum, cum facere nihil, quae at
-              iusto obcaecati itaque deleniti praesentium consequatur nemo
-              voluptatem! Et itaque quas officia.
+              I am a full-stack developer with a goal of creating clean,
+              user-friendly web applications. I have experience in frontend and
+              backend technologies, as well as a background in military
+              aviation. I am currently an Assistant Instructor for the
+              ServiceNow RiseUp SkillBridge program, where I assist in teaching
+              other transitioning military members/spouses how to develop and administer
+              on the ServiceNow platform. If you like what you see or are
+              curious about my work, feel free to reach out to me through my contact form at the bottom of this page!
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
