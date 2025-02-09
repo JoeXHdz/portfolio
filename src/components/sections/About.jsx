@@ -42,7 +42,7 @@ export const About = () => {
                     "bootstrap.png",
                     "css.png",
                     "html.png",
-                    "js.png",
+                    "JS.png",
                     "vite.svg",
                     "react.png",
                     "vscode.png",
@@ -53,8 +53,7 @@ export const About = () => {
                   ].map((logo, index) => (
                     <img
                       key={index}
-                      src={`./src/assets/${logo}`}
-                      alt={logo.replace(".png", "")}
+                      src={`./assets/${logo}`}
                       className="h-9 w-auto"
                     />
                   ))}
