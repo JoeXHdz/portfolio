@@ -14,13 +14,13 @@ export const Projects = () => {
                 title: "Simple To-Do App",
                 description: "The Simple To-Do App project is a web application that allows users to create and manage tasks.",
                 tech: ["React", "HTML", "Node.js", "Express", "CSS", "Vite"],
-                link: "#"
+                link: null // No live link yet
               },
               {
                 title: "Mortgage Calculator",
                 description: "The Mortgage Calculator project is a web application that allows users to calculate mortgage payments.",
                 tech: ["React", "Chart.js", "Node.js", "Javascript", "CSS"],
-                link: "#"
+                link: null // No live link yet
               },
               {
                 title: "Change Calculator",
@@ -32,19 +32,19 @@ export const Projects = () => {
                 title: "San Diego Top Spots",
                 description: "The San Diego Top Spots project is a web application that allows users to view popular spots in San Diego.",
                 tech: ["React", "HTML", "Node.js", "Bootstrap"],
-                link: "#"
+                link: null // No live link yet
               },
               {
                 title: "Weather App",
                 description: "The Weather App project is a web application that allows users to view the weather forecast for a given location.",
                 tech: ["React", "HTML", "Node.js", "Express", "CSS", "Vite"],
-                link: "#"
+                link: null // No live link yet
               },
               {
                 title: "Astro Weight Calculator",
                 description: "The Astro Weight Calculator project is a web application that allows users to calculate their weight on different planets.",
                 tech: ["HTML", "CSS", "Javascript"],
-                link: "#"
+                link: null // No live link yet
               }
             ].map((project, index) => (
               <div key={index} className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-green-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
@@ -58,14 +58,20 @@ export const Projects = () => {
                   ))}
                 </div>
                 <div className="flex justify-between items-center">
-                  <a 
-                    href={project.link} 
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="block mt-4 text-green-300 hover:text-green-400 transition"
-                  >
-                    View Project →
-                  </a>
+                  {project.link ? (
+                    <a 
+                      href={project.link} 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="block mt-4 text-green-300 hover:text-green-400 transition"
+                    >
+                      View Project →
+                    </a>
+                  ) : (
+                    <span className="block mt-4 text-gray-500 cursor-not-allowed">
+                      No Live Project
+                    </span>
+                  )}
                 </div>
               </div>
             ))}
