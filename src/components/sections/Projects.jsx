@@ -17,22 +17,10 @@ export const Projects = () => {
                 link: "https://JoeXHdz.github.io/vstda"
               },
               {
-                title: "Mortgage Calculator",
-                description: "The Mortgage Calculator project is a web application that allows users to calculate mortgage payments.",
-                tech: ["React", "Chart.js", "Node.js", "Javascript", "CSS"],
-                link: null // No live link yet
-              },
-              {
                 title: "Change Calculator",
                 description: "The Change Calculator project is a web application that allows users to calculate change for a given amount.",
                 tech: ["React", "HTML", "Node.js", "Express", "Javascript", "CSS"],
                 link: "https://joexhdz.github.io/Change-Calculator/"
-              },
-              {
-                title: "San Diego Top Spots",
-                description: "The San Diego Top Spots project is a web application that allows users to view popular spots in San Diego.",
-                tech: ["React", "HTML", "Node.js", "Bootstrap"],
-                link: null // No live link yet
               },
               {
                 title: "Weather App",
@@ -40,6 +28,19 @@ export const Projects = () => {
                 tech: ["React", "HTML", "Node.js", "Express", "CSS", "Vite"],
                 link: null // No live link yet
               },
+              {
+                title: "Mortgage Calculator",
+                description: "The Mortgage Calculator project is a web application that allows users to calculate mortgage payments.",
+                tech: ["React", "Chart.js", "Node.js", "Javascript", "CSS"],
+                link: null // No live link yet
+              },
+              {
+                title: "San Diego Top Spots",
+                description: "The San Diego Top Spots project is a web application that allows users to view popular spots in San Diego.",
+                tech: ["React", "HTML", "Node.js", "Bootstrap"],
+                link: null // No live link yet
+              },
+              
               {
                 title: "Astro Weight Calculator",
                 description: "The Astro Weight Calculator project is a web application that allows users to calculate their weight on different planets.",
