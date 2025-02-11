@@ -11,10 +11,10 @@ export const Projects = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
               {
-                title: "Simple To-Do App",
+                title: "VSTDA",
                 description: "The Simple To-Do App project is a web application that allows users to create and manage tasks.",
                 tech: ["React", "HTML", "Node.js", "Express", "CSS", "Vite"],
-                link: null // No live link yet
+                link: "https://JoeXHdz.github.io/vstda"
               },
               {
                 title: "Mortgage Calculator",
