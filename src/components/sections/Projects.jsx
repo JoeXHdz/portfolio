@@ -26,7 +26,7 @@ export const Projects = () => {
                 title: "Weather App",
                 description: "The Weather App project is a web application that allows users to view the weather forecast for a given location.",
                 tech: ["React", "HTML", "Node.js", "Express", "CSS", "Vite"],
-                link: null // No live link yet
+                link: "https://JoeXHdz.github.io/Weather-App"
               },
               {
                 title: "Mortgage Calculator",
