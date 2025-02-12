@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -10,7 +10,17 @@
       rel="stylesheet"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src 'self' https://api.openweathermap.org;">
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="
+  default-src 'self'; 
+  script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; 
+  style-src 'self' 'unsafe-inline'; 
+  img-src 'self' data: https://openweathermap.org https://your-weather-app.github.io; 
+  connect-src 'self' https://api.openweathermap.org;
+"
+    />
+
     <title>Joel's Portfolio</title>
   </head>
   <body>
