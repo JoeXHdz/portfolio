@@ -23,12 +23,6 @@ export const Projects = () => {
                 link: "https://joexhdz.github.io/Change-Calculator/"
               },
               {
-                title: "Weather App",
-                description: "The Weather App project is a web application that allows users to view the weather forecast for a given location.",
-                tech: ["React", "HTML", "Node.js", "Express", "CSS", "Vite"],
-                link: "https://JoeXHdz.github.io/Weather-App"
-              },
-              {
                 title: "Mortgage Calculator",
                 description: "The Mortgage Calculator project is a web application that allows users to calculate mortgage payments.",
                 tech: ["React", "Chart.js", "Node.js", "Javascript", "CSS"],
@@ -40,7 +34,6 @@ export const Projects = () => {
                 tech: ["React", "HTML", "Node.js", "Bootstrap"],
                 link: "https://JoeXHdz.github.io/sdtopspots"
               },
-              
               {
                 title: "Astro Weight Calculator",
                 description: "The Astro Weight Calculator project is a web application that allows users to calculate their weight on different planets.",
