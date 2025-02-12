@@ -39,6 +39,12 @@ export const Projects = () => {
                 description: "The Astro Weight Calculator project is a web application that allows users to calculate their weight on different planets.",
                 tech: ["HTML", "CSS", "Javascript"],
                 link: "https://joexhdz.github.io/astroweightcalculator"
+              },
+              {
+                title: "More Projects Coming Soon...",
+                description: "Open to suggestions. Shoot me an email!",
+                tech: ["HTML", "CSS", "Javascript"],
+                link: null 
               }
             ].map((project, index) => (
               <div key={index} className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-green-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
