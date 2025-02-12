@@ -14,8 +14,7 @@ export const Home = () => {
 
           <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
             Welcome! Thank you for visting my portfolio. Feel free to browse
-            around and check out my projects. This portfolio was inspired by
-            @PedroTech on YouTube.
+            around and check out my projects.
           </p>
           <div className="flex justify-center space-x-4">
             <a
