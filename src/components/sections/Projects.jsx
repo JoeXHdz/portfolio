@@ -32,20 +32,20 @@ export const Projects = () => {
                 title: "Mortgage Calculator",
                 description: "The Mortgage Calculator project is a web application that allows users to calculate mortgage payments.",
                 tech: ["React", "Chart.js", "Node.js", "Javascript", "CSS"],
-                link: null // No live link yet
+                link: "https://joexhdz.github.io/mortgage-calculator"
               },
               {
                 title: "San Diego Top Spots",
                 description: "The San Diego Top Spots project is a web application that allows users to view popular spots in San Diego.",
                 tech: ["React", "HTML", "Node.js", "Bootstrap"],
-                link: null // No live link yet
+                link: "https://JoeXHdz.github.io/sdtopspots"
               },
               
               {
                 title: "Astro Weight Calculator",
                 description: "The Astro Weight Calculator project is a web application that allows users to calculate their weight on different planets.",
                 tech: ["HTML", "CSS", "Javascript"],
-                link: null // No live link yet
+                link: "https://joexhdz.github.io/astroweightcalculator"
               }
             ].map((project, index) => (
               <div key={index} className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-green-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
