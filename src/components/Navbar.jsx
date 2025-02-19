@@ -58,7 +58,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
             </a>
             <a
               href={`${import.meta.env.BASE_URL}resume.pdf`}
-              download="Joels_Resume.pdf"
+              download="Resume.pdf"
               className="text-gray-300 hover:text-white transition-colors"
             >
               Resume
